@@ -15,7 +15,7 @@ alias cask="brew cask"
 #################
 #    Android    #
 #################
-alias restartADB="/Users/rbloomdale/Library/Android/sdk/platform-tools/adb kill-server; /Users/rbloomdale/Library/Android/sdk/platform-tools/adb start-server"
+alias restartADB="~/Library/Android/sdk/platform-tools/adb kill-server; ~/Library/Android/sdk/platform-tools/adb start-server"
 
 ################
 #    Utils     #
