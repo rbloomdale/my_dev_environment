@@ -80,10 +80,10 @@ function gitDeleteMergedBranches {
     return 1
   fi
   
-  git checkout develop
+  git checkout $MainGitBranchName
   if [ ! $? = 0 ]
   then
-    echo "Failed to checkout develop"
+    echo "Failed to checkout $MainGitBranchName"
     return 2
   fi
   
