@@ -16,6 +16,9 @@ alias cask="brew cask"
 #    Android    #
 #################
 alias restartADB="~/Library/Android/sdk/platform-tools/adb kill-server; ~/Library/Android/sdk/platform-tools/adb start-server"
+alias emulatorMarshmallowCharlesProxy="emulatorProxy Nexus_10_Edited_API_23"
+alias emulatorKitKatCharlesProxy="emulatorProxy Nexus_10_4.4.2"
+alias emulatorNougatCharlesProxy="emulatorProxy Nexus_10_Edited_API_25"
 
 ################
 #    Utils     #

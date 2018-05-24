@@ -1,1 +1,1 @@
-PATH=$PATH":~/Library/Android/sdk/tools:~/Library/Android/sdk/tools"
+PATH=$PATH":~/Library/Android/sdk/tools:~/Library/Android/sdk/platform-tools"
