@@ -19,6 +19,8 @@ alias restartADB="~/Library/Android/sdk/platform-tools/adb kill-server; ~/Librar
 alias emulatorMarshmallowCharlesProxy="emulatorProxy Nexus_10_Edited_API_23"
 alias emulatorKitKatCharlesProxy="emulatorProxy Nexus_10_4.4.2"
 alias emulatorNougatCharlesProxy="emulatorProxy Nexus_10_Edited_API_25"
+alias getImmersive="adb shell settings get global policy_control"
+alias setImmersive="adb shell settings put global policy_control immersive.full=com.reddit.frontpage,com.laurencedawson.reddit_sync,org.adwfreak.launcher,-com.google.android.googlequicksearchbox,-com.nianticlabs.pokemongo,-com.Slack,-jp.pokemon.poketoru,-me.lyft.android,-com.textra,-com.whatsapp,-com.google.android.talk,-com.facebook.orca"
 
 ################
 #    Utils     #
