@@ -26,3 +26,4 @@ alias setImmersive="adb shell settings put global policy_control immersive.full=
 #    Utils     #
 ################
 #alias deleteEmptyDirs = "for folder in $(find -type d ! -path *.svn*); do   if [ "`find $folder ! -path *.svn* ! -path $folder | wc -l`" -eq 0 ]; then    echo $folder; rm -r $folder;   fi; done"
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
